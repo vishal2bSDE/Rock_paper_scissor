@@ -1,0 +1,38 @@
+body{
+
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: rgba(201, 175, 175, 0.774);
+}
+img{
+    height: 180px;
+    width: 180px;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233 ,1);
+}
+h2{
+    background: rgba(151, 114, 114, 0.774)!important;
+}
+.container-3{
+    width: 75%;
+    border: 4px solid black;
+    margin: auto auto;
+    text-align: center;
+    
+}
+.flex-box-rps{
+    border-top: 3px solid black;
+    background: white;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* img:hover{
+    border: 1rem solid red;
+} */
